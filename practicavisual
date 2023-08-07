@@ -1,0 +1,12 @@
+empresa={}
+empresa["nombre"]=input("ingrese el nombre de la empresa : ")
+empresa["ruc"]=int(input("ingrese su ruc "))
+empresa["direccion"]=input("ingrese su direccion de la empresa "),
+while len(empresa["sucursales"])<2:
+    sucursal=input("ingresa el nombre de la sucursal")
+    empresa["sucursales"].append(sucursal)
+empresa["horario"]={}
+empresa["horario"]["dia"]=input("ingrese el horario del dia")
+empresa["horario"]["tarde"]=input("ingrese el horario de la tarde")
+
+print(empresa)
