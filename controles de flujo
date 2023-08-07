@@ -1,0 +1,59 @@
+lista=[]
+
+while len(lista)
+
+
+
+
+
+#pedir al usuario un numero luego generar la tabla 
+# de multiplicar de dicho numero del 1 hasta el 12
+
+tablaDe=int(input("ingresa un nmero"))
+for numero in range(1,13):
+    resultado=numero+tablaDe
+    prin(f"{numero}") * {tablaDe} = {resultado}")
+
+    # 2 = 2*1 = 2
+    # 3 = 3*2*1= 6
+    # 4=4*3*2*1=24
+    # 5=5*4*3*2*1=120
+
+    ##un programa que me pida un numero y me calcule su factorial
+
+    # ejemplo
+    # de salida me debera imprimir 120
+
+    numero=int(input("ingrese el numero:"))
+    factorial=1
+    for num in range(1,numero+1):
+        factorial=factorial*num
+        print(factorial)
+        print(factorial)
+
+
+
+
+#entrada=5
+
+# 1+5=5
+# 2+5=10
+# 3+5=15
+#
+# 3+12=36
+
+
+
+ class DatosPersonales:
+    def _init_(self, nombre, edad, ciudad):
+
+
+
+
+# el objeto trabaja con clave y valor 
+objeto={}
+objeto["nombre"]=input("ingrese sub nombre: ")
+objeto["apellido"]=input("ingrese su apellido: ")
+objeto["edad"]=int(input("ingrese su edad: "))
+objeto["sexo"]=input("ingrese M si es masculino y F si es femenino: ")
+print(objeto)
